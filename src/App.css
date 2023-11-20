@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+.app-container {
+  max-width: 1200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PatientInfo {
+  margin-top: auto;
+  height: 50px;
+  background-color: rgb(0, 123, 255);
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.PatientInfo p,
+h4 {
+  margin: 0 8px;
+  color: white;
+  padding: 5px;
+}
+
+.buttons {
+  margin-left: auto;
+  display: flex;
+  margin-right: 15%;
+}
+
+.languageDropdown {
+  min-height: 30px;
+  border-radius: 5%;
+  border-color: transparent;
+  background-color: orange;
+  color: black;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.wp-icon {
+  margin-left: 8px;
+  color: white;
+  border-radius: 60%;
+}
+
+.wp-icon:hover {
+  background-color: #3cb371;
+}
+
+/* Complaint styles */
+
+.complaint {
+  margin: 20px;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.complaint-table th,
+.complaint-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.complaint-table td {
+  background-color: #f2f2f2;
+}
+
+.complaint-table input {
+  width: 80%;
+  padding: 6px;
+  border-style: none;
+  background-color: #f2f2f2;
+}
+
+.complaint-table button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* History Field Styles */
+
+.history-feilds {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  justify-content: start;
+}
+
+.history-feilds input {
+  width: 25%;
+  margin: 15px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Table styles */
+
+.tableContainer {
+  text-align: center;
+}
+
+.Spectacle,
+.Refractor {
+  display: inline-block;
+  margin: 10px;
+  width: 45%;
+}
+
+.Spectacle table,
+.Refractor table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.Spectacle th,
+.Spectacle td,
+.Refractor th,
+.Refractor td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: start;
+}
+
+.Spectacle .heading,
+.Refractor .heading {
+  text-align: center;
+}
+
+.Spectacle input,
+.Refractor input {
+  width: 80%;
+  padding: 8px;
+  border-style: none;
+}
+
+.checkup_tbl .input {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.Medicines-feilds {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.Medicines-feilds span {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.Medicines-feilds input {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Medicines-feilds a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.FurtherProcess .upper_field {
+  display: flex;
+}
+
+.FurtherProcess .upper_field input {
+  margin-left: 10px;
+  width: 45%;
+  height: 50px;
+  margin-right: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.FurtherProcess .lower_field input {
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 20%;
+  height: 30px;
+  margin-right: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.FurtherProcess .lower_field button {
+  min-height: 30px;
+  border-radius: 5px;
+  width: 10%;
+  border-color: transparent;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
