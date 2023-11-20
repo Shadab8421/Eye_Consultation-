@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eye_Consultation-/static/css/main.b59a2ac4.css",
+    "main.js": "/Eye_Consultation-/static/js/main.37f72b81.js",
+    "index.html": "/Eye_Consultation-/index.html",
+    "main.b59a2ac4.css.map": "/Eye_Consultation-/static/css/main.b59a2ac4.css.map",
+    "main.37f72b81.js.map": "/Eye_Consultation-/static/js/main.37f72b81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b59a2ac4.css",
+    "static/js/main.37f72b81.js"
+  ]
+}
